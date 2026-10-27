@@ -1,6 +1,14 @@
+# - name: ping demo
+#   hosts: local # target ansible server itself
+#   connection: local # It will not expect credentials
+#   tasks: # tasks == modules == collections
+#   - name: ping localhost
+#     ping:
+
+
 - name: ping demo
-  hosts: local # target ansible server itself
-  connection: local # It will not expect credentials
-  tasks: # tasks == modules == collections
-  - name: ping localhost
-    ping:
+  hosts: localhost
+  connection: local
+  tasks:
+    - name: ping localhost
+      ansible.builtin.ping:

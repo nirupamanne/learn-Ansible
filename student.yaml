@@ -1,0 +1,35 @@
+- firstName: "Nirupa"
+  lastName: "Manne"
+  dob: 05-06-2000
+  # - is for list 
+  addresses:
+  - type: permenent
+    doorNo: 1-151
+    city: Nellore
+    streetName: BC Colony
+  - type: Temporary
+    doorNo: 1-151
+    city: Nellore
+    streetName: BC Colony
+  skills:
+    OS: Linux
+    IDE: VsCode
+    CM: "ansible"
+
+- firstName: "harika"
+  lastName: "Manne"
+  dob: 19-07-1997
+  # - is for list 
+  addresses:
+  - type: permenent
+    doorNo: 1-151
+    city: Nellore
+    streetName: BC Colony
+  - type: Temporary
+    doorNo: 1-151
+    city: Nellore
+    streetName: BC Colony
+  skills:
+    OS: Linux
+    IDE: VsCode
+    CM: "ansible"

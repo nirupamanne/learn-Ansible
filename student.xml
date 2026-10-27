@@ -1,0 +1,17 @@
+<Student>
+    <firstName>Nirupa</firstName>
+    <lastName>Manne</lastName?
+    <dob>05-06-2000</dob>
+    <addresses>
+        <address tyep="permenent">
+            <doorNo>1-151</doorNo>
+            <streetName>Gandhi Nagar</streetName>
+            <city>Nellore</city>
+        </address>
+        <address tyep="Temporary">
+            <doorNo>1-501</doorNo>
+            <streetName>Sarjapur</streetName>
+            <city>Banglore</city>
+        </address>
+    </addresses>
+</Student>

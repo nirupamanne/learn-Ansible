@@ -1,0 +1,24 @@
+{
+    "firstName": "Nirupa",
+    "lastName": "Manne",
+    "dob": "01-01-01",
+    "addresses": [
+        {
+            "type": "permanent",
+            "doorNo": "1-151",
+            "streetName": "BC Colony",
+            "city": "Nellore"
+        },
+        {
+            "type": "temporary",
+            "doorNo": "1-143",
+            "streetName": "Sarjapur",
+            "city": "Banglore"
+        }
+    ],
+    "skills": {
+        "OS": "Linux",
+        "IDE": "VsCode",
+        "CM": "ansible"
+    }
+}

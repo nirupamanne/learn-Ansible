@@ -16,6 +16,8 @@
     debug:
       msg: "Hi, I am learning {{ course }}"
 
+
+#run command in server: ansible-playbook -i inventory.ini 11-variables.yaml  -e "course=ansible from cmd"
 # 1. CMD
 # 2. task
 # 3. File

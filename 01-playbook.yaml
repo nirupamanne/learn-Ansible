@@ -7,7 +7,7 @@
 
 
 - name: ping demo
-  hosts: local
+  hosts: localhost
   connection: local
   tasks:
     - name: ping localhost

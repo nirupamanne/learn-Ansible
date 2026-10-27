@@ -1,0 +1,8 @@
+- name: install and start nginx
+  host: frontend #frontend private ip need to give inventory file frontend host
+  tasks:
+  - name: install nginx
+    package:
+      name: nginx
+      state: present
+

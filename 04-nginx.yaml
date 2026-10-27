@@ -1,16 +1,28 @@
+- name: install and start nginx
+  hosts: frontend #frontend private ip need to give inventory file frontend host
+  tasks:
+  - name: install nginx
+    package:
+      name: nginx
+      state: present
+  
+  - name: start nginx
+    service:
+      name: nginx
+      state: started
+      enabled: yes
+
 # - name: install and start nginx
-#   host: frontend #frontend private ip need to give inventory file frontend host
+#   hosts: frontend
+#   become: yes # providing sudo access
 #   tasks:
 #   - name: install nginx
 #     package:
 #       name: nginx
 #       state: present
 
-- name: install and start nginx
-  hosts: frontend
-  become: yes # providing sudo access
-  tasks:
-  - name: install nginx
-    package:
-      name: nginx
-      state: present
+#   - name: start nginx
+#     service:
+#       name: nginx
+#       state: started
+#       enabled: yes

@@ -4,6 +4,7 @@
   tasks:
   - name: print Hello DevOps
     ansible.builtin.debug: 
+      msg: "Hello Ansible...."
 
 #it will print the hello world
 #Run command(ansible-playbook -i inventory.ini 02-playbook.yaml)

@@ -4,9 +4,9 @@
   vars:
     topics: Linux, Shell, Ansible, Terraform, Docker
     names:
-    - Sivakumar
-    - Reddy
-    - Mettukuru
+    - Nirupa
+    - Niru
+    - Manne
     topic: ANSIBLE
     duration: "4"
   tasks:

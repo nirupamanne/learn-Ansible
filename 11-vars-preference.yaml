@@ -22,3 +22,5 @@
 # 4. prompt
 # 5. PLAY
 # 6. Inventory
+#run command:ansible-playbook -i inventory.ini 11-vars-preference.yaml
+#Please enter your course: ansible from prompt

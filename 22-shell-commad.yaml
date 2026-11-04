@@ -19,3 +19,7 @@
   - name: print files info
     debug:
       msg: "{{ files_output }}"
+
+
+
+#ansible-playbook 22-shell-command.yaml
